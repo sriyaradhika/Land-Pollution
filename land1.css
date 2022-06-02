@@ -1,0 +1,190 @@
+/*common*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+/*header*/
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/lp2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    color: #D3DEDC;
+    margin-bottom: 150px;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.h-line{
+    width: 150px;
+    height: 4px;
+    background: #11cdd4;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.btn{
+    padding: 8px 15px;
+    background: #11cdd4;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.btn:hover {
+    background-color: #30e3cb;;
+}
+/*importance*/
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #92A9BD;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .col img{
+    width: 80%; 
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.importance .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #009DAE;
+    margin: 20px auto;
+}
+p{
+    color: #92A9BD;
+    padding: 0px 40px;
+    line-height: 2;
+    
+}
+.importance .btn{
+    margin-top: 30px;
+}
+
+/*do you know*/
+.know{
+    width: 100%;
+    height: 80vh;
+    background-image: url('./images/lp1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.know-content{
+    width: 60%;
+    padding: 50px;
+    color: #C3DBD9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.know-content h1{
+    font-size: 7vmin;
+}
+.know-content .h-line{
+margin-bottom: 50px;
+}
+.know-content p{
+    color: whitesmoke;
+    font-size: 3vmin;
+}
+.know-content .btn{
+    margin-top: 40px;
+}
+
+/*land pollution*/
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.pollution .pollution-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.pollution-image img{
+    max-width: 250px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #11cdd4;
+}
+.content-col .h-line{
+    margin-left: -1px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+
+/*causes*/
+.causes .causes-image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.causes-image img{
+    max-width: 250px;
+    margin: 10px;
+}
+.causes p{
+    line-height: 1.6;
+}
+
+.content-col .btn{
+   margin-top: -25px;
+ 
+}
+
+/*effects*/
+.effects .row{
+    margin-top: 50px;
+}
+.effects .row .col img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
